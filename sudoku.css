@@ -1,0 +1,10 @@
+.box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin: 3px;
+    text-align: center;
+    padding: auto;
+}
+.main {float: left;}
+.last {clear: after;}

@@ -1,0 +1,16 @@
+.box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin: 3px;
+    text-align: center;
+    padding: auto;
+}
+
+.puzzle-row:nth-child(3n+3) .box { border-bottom: 1px solid #666666; }
+.box:nth-child(3n+3) { border-right: 1px solid #666666; }
+.puzzle-row:nth-child(3n-2) .box { border-top: 1px solid #666666; }
+.box:nth-child(3n-2) { border-left: 1px solid #666666; }
+
+.main {float: left;}
+.last {clear: after;}
